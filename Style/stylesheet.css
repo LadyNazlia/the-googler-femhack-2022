@@ -80,7 +80,7 @@ body {
     border: 3px solid white;
     border-radius: 20px;
     padding: 10px;
-    width: 450px;
+    width: max-content;
     height: min-content;
 }
 
@@ -137,6 +137,8 @@ Login Page Design
 .app-box .login-form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 form {
@@ -144,9 +146,12 @@ form {
     font-family: cursive;
 }
 
-.app-box a{
+
+.app-box a,
+.app-box span{
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 .app-box a:hover {
@@ -158,15 +163,69 @@ form {
     font-family: cursive;
 }
 
+.password,
+.password2 {
+    margin-top: 5px;
+}
+
+input {
+    width: 200px;
+   
+}
+
+button {
+    width: 100px;
+    background:#8869b9;
+    color: white;
+    margin-top: 10px;
+}
 /*
 --------------------------------------------
 Register Page Design
 --------------------------------------------
 */
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .register {
+        margin-bottom: 4px;
+    }
 
 /*
 --------------------------------------------
 Create Note Page Design
 --------------------------------------------
 */
+.label {
+    display: block;
+   
+}
+
+
+/*
+--------------------------------------------
+Notes Page Design
+--------------------------------------------
+*/
+
+.note {
+    border: 3px solid white;
+    border-radius: 3px;
+    background: #8869b9;
+    color: white;
+    height: 90px;
+    min-width: auto;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.tag {
+    border: 3px solid white;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 1px;
+}
+
