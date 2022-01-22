@@ -8,9 +8,9 @@ This projeect is a prototype created for the individual front end challenge for 
  Due to the limit of 16 hours to complete this prototype and my extremely limited experience with HTML and CSS, this is merely being completed for the sake professional experience that I can gain from challenging myself to learn something new in a short amount of time.
 
 
-<!-----------------------------
-Challenge Requirements:
-------------------------------->
+
+<strong>Challenge Requirements:</strong>
+
 
 Marissa personally asked you to create the app prototype that allows their users to:
 
