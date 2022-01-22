@@ -2,9 +2,8 @@
 This projeect is a prototype created for the individual front end challenge for FemHack 2022.
 
 
-<!-----------------------------
-Special Note:
-------------------------------->
+<strong>Special Note:</strong>
+
 
  Due to the limit of 16 hours to complete this prototype and my extremely limited experience with HTML and CSS, this is merely being completed for the sake professional experience that I can gain from challenging myself to learn something new in a short amount of time.
 
