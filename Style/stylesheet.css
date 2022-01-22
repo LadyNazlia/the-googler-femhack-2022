@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+--------------------------------------------
+General Page Setup
+--------------------------------------------
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+--------------------------------------------
+Homepage Design
+--------------------------------------------
+*/
+
+body {
+    background: #8869b9;
+    background:linear-gradient(to left, #8869b9, #499fb4, #e1e977e0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+   
+    
+}
+.app-box {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 450px;
+    height: min-content;
+}
+
+#important-note {
+    height: 120px;
+    width: 120px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding-bottom: 20px;
+    
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 7px;
+    border-radius: 12px;
+
+}
+
+nav li .login { 
+    margin-right: 20px;
+}
+
+nav li a:hover {
+    background: #8869b9;
+}
+
+/*
+--------------------------------------------
+Login Page Design
+--------------------------------------------
+*/
+
+.app-box .login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    color: white;
+    font-family: cursive;
+}
+
+.app-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.app-box a:hover {
+    color: #8869b9;
+}
+
+.app-box {
+    color: white;
+    font-family: cursive;
+}
+
+/*
+--------------------------------------------
+Register Page Design
+--------------------------------------------
+*/
+
+
+/*
+--------------------------------------------
+Create Note Page Design
+--------------------------------------------
+*/
