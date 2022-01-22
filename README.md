@@ -2,16 +2,15 @@
 This projeect is a prototype created for the individual front end challenge for FemHack 2022.
 
 
-<!-----------------------------
-Special Note:
-------------------------------->
+<strong>Special Note:</strong>
+
 
  Due to the limit of 16 hours to complete this prototype and my extremely limited experience with HTML and CSS, this is merely being completed for the sake professional experience that I can gain from challenging myself to learn something new in a short amount of time.
 
 
-<!-----------------------------
-Challenge Requirements:
-------------------------------->
+
+<strong>Challenge Requirements:</strong>
+
 
 Marissa personally asked you to create the app prototype that allows their users to:
 
@@ -25,9 +24,9 @@ Marissa personally asked you to create the app prototype that allows their users
     Edit notes
     
 
-<!-----------------------------
-Initial Planning:
-------------------------------->
+
+<strong>Initial Planning:</strong>
+
 
 - Due to my lack of experience in app development, I have decided to make a browser based "app" that can ideally work easily as a browser based application with some future modifications.
 - The "app" will start with a home screen where users can choose to log in or register.
@@ -39,9 +38,9 @@ Initial Planning:
 - I don't know how to do tags yet, but I'll explore the MDN as time permits.
 
 
-<!-----------------------------
-Descriptions of Files included:
-------------------------------->
+
+<strong>Descriptions of Files included:</strong>
+
 
 - index.html - the main page of the app that greets users and asks whether they want to login or register
 - stylesheet.css - contains all of the CSS content for the whole app
@@ -52,9 +51,10 @@ Descriptions of Files included:
 - delete.html - for the time being, this file serves as an example of what it would look like if the user choose "delete" from the notes.html page
 - create.html - for the time being, this files serves as an example of what it would look like if the user choose "create" from the notes.html page
 
-<!-----------------------------
-Future Improvements:
-------------------------------->
+
+<strong>Future Improvements:</strong>
+
+
 - Add Javascript so that edit.html/delete.html/create.html pages can be removed and replaced with interactive JS content on the notes.html page instead
 - Add a backend database that allows usernames and passwords to be installed
 - Add password requirements and checks to make sure passwords match on the register.html page
